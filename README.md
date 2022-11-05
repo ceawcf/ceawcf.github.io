@@ -1,3 +1,3 @@
-# ceawcf.github.io
+# ceaw.cf
 
 This is the public ceaw.cf website
