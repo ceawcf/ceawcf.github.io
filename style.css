@@ -22,10 +22,12 @@ html, body {
     font-size: 0;
     height: 100%;
     }
+
 h1 {
   display: inline-block;
   color: white;
   font-family: 'Righteous', serif;
+  left: .2em;
   font-size: 12em; 
   text-shadow: .03em .03em 0 #202124;
   }
@@ -146,4 +148,11 @@ footer{
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+}
+
+.hm {
+  display: inline-block;
+  text-decoration: none;
+  left: 2.0em;
+  color: #202124;
 }
