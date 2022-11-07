@@ -27,7 +27,6 @@ h1 {
   display: inline-block;
   color: white;
   font-family: 'Righteous', serif;
-  left: .2em;
   font-size: 12em; 
   text-shadow: .03em .03em 0 #202124;
   }
@@ -97,14 +96,14 @@ footer{
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #2b2b2b;
 }
 
 .nav > #nav-check {
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width:800px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -118,7 +117,7 @@ footer{
     padding: 13px;
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #2b2b2b;
   }
   .nav > .nav-btn > label > span {
     display: block;
@@ -151,9 +150,8 @@ footer{
 }
 
 .hm {
-  display: inline-block;
+  display: contents;
   text-decoration: none;
   left: 2.0em;
   color: #202124;
 }
-
