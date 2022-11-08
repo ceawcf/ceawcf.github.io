@@ -1,8 +1,7 @@
 /*SO MANY POSSIBILITIES FOR HOVER EFFECTS!!!!!!!!!!!!!!!!!!!!!*/
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,900);
-
-body{
-  padding:100px 0px 100px 0px;
+body {
+  padding: 100px 0px 100px 0px;
   -webkit-font-smoothing: antialiased;
   background: #202124;
   cursor: none;
@@ -13,131 +12,133 @@ body{
 }
 
 ::-webkit-scrollbar-track {
-  background: #202124; 
+  background: #202124;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2b2b2b; 
+  background: #2b2b2b;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background:  #a043f2; 
+  background: #a043f2;
 }
 
 h1 {
-  font:900 48px Lato;
-  text-transform:uppercase;
-  margin-bottom:36px;
+  font: 900 48px Lato;
+  text-transform: uppercase;
+  margin-bottom: 36px;
   text-align: center;
-  color:#fff;
-  text-shadow: .00em .05em 0 #a043f2;
+  color: #fff;
+  text-shadow: 0em 0.05em 0 #a043f2;
   cursor: hiden;
 }
-a { color: white;
-    cursor: none;
-    text-decoration: none;
+
+a {
+  color: white;
+  cursor: none;
+  text-decoration: none;
 }
+
 a:hover {
-    color: white; 
-    text-decoration:none; 
-    cursor: none;
+  color: white;
+  text-decoration: none;
+  cursor: none;
 }
+
 h3 {
-  font:900 12px Lato;
-  text-transform:uppercase;
-  margin-bottom:36px;
+  font: 900 12px Lato;
+  text-transform: uppercase;
+  margin-bottom: 36px;
   text-align: center;
-  color:#202124;
+  color: #202124;
 }
 
-.fly{
-  -webkit-transform:translateY(200px);
-    -webkit-transition:0.4s;
-  -moz-transition:0.4s;
-  -o-transition:0.4s;
-  -ms-transition:0.4s;
-  transition:0.4s;
+.fly {
+  -webkit-transform: translateY(200px);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.flyIn{
-  -webkit-transform:translateY(0px);
-    -webkit-transition:0.4s;
-  -moz-transition:0.4s;
-  -o-transition:0.4s;
-  -ms-transition:0.4s;
-  transition:0.4s;
+.flyIn {
+  -webkit-transform: translateY(0px);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.col-md-4:hover{
-  background:#2b2b2b;
-  -webkit-transition:0.4s;
-  -moz-transition:0.4s;
-  -o-transition:0.4s;
-  -ms-transition:0.4s;
-  transition:0.4s;
-  -webkit-transform:translateY(-10px);
-  -moz-transform:translateY(-10px);
-  -o-transform:translateY(-10px);
-  -ms-transform:translateY(-10px);
-  transform:translateY(-10px);
-  position:relative;
-  z-index:5000;
+.col-md-4:hover {
+  background: #2b2b2b;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+  position: relative;
+  z-index: 5000;
 }
 
-.post:hover{
-text-decoration:none;
+.post:hover {
+  text-decoration: none;
   cursor: none;
 }
 
-.fa{
-  margin-right:5px;
+.fa {
+  margin-right: 5px;
   cursor: none;
 }
 
-.col-md-4{
+.col-md-4 {
   top: 50%;
   width: 100%;
   text-align: left;
   cursor: none;
-  height:auto;
-  overflow:hidden;
+  height: auto;
+  overflow: hidden;
   background: #202124;
-  border:10px solid #202124;
-  position:relative;
-  z-index:0;
-  .inner{
-    padding:10px;
-    h2{
-      font:900 24px Lato;
-      text-transform:uppercase;
-      margin-bottom:18px;
-      color:#fff;
-    }
-    p{
-      font:400 14px Lato;
-      line-height:30px;
-      color:#9b9eab;
-      cursor: none;
-    }
-    
-    .read-more{
-      color:#a043f2;
-      display:block;
-      font:900 13px Lato;
-      position:relative;
-      text-transform:uppercase;
-      cursor: none;
-    }
-    
-    .read-more:hover{
-      text-decoration:none;
-      cursor: none;
-    }
-  }
+  border: 10px solid #202124;
+  position: relative;
+  z-index: 0;
+}
+.col-md-4 .inner {
+  padding: 10px;
+}
+.col-md-4 .inner h2 {
+  font: 900 24px Lato;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: #fff;
+}
+.col-md-4 .inner p {
+  font: 400 14px Lato;
+  line-height: 22px;
+  color: #9b9eab;
+  cursor: none;
+}
+.col-md-4 .inner .read-more {
+  color: #a043f2;
+  display: block;
+  font: 900 13px Lato;
+  position: relative;
+  text-transform: uppercase;
+  cursor: none;
+}
+.col-md-4 .inner .read-more:hover {
+  text-decoration: none;
+  cursor: none;
 }
 
-a:active,a:focus{
+a:active, a:focus {
   color: #a043f2;
-  text-decoration:none;
+  text-decoration: none;
   cursor: none;
 }
