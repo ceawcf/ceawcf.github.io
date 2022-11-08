@@ -1,8 +1,7 @@
 /*SO MANY POSSIBILITIES FOR HOVER EFFECTS!!!!!!!!!!!!!!!!!!!!!*/
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,900);
-
 body{
-  padding:50px 0px 50px 0px;
+  padding:50px 0px 100px 0px;
   -webkit-font-smoothing: antialiased;
   background: #202124;
   cursor: none;
@@ -27,7 +26,7 @@ body{
 h1 {
   font:900 48px Lato;
   text-transform:uppercase;
-  margin-bottom:36px;
+  margin-bottom: 36px;
   text-align: center;
   color:#fff;
   text-shadow: .00em .05em 0 #a043f2;
@@ -37,6 +36,7 @@ a { color: white;
     cursor: none;
     text-decoration: none;
 }
+
 a:hover {
     color: white; 
     text-decoration:none; 
@@ -44,13 +44,11 @@ a:hover {
 }
 
 h3 {
-  font:900 24px Lato;
-  text-transform:uppercase;
-  margin-bottom:36px;
+  font: 900 12px Lato;
+  text-transform: uppercase;
+  margin-bottom: 36px;
   text-align: center;
-  color:#fff;
-  text-shadow: .00em .05em 0 #a043f2;
-  cursor: hiden;
+  color: #202124;
 }
 
 .fly{
@@ -71,7 +69,7 @@ h3 {
   transition:0.4s;
 }
 
-.col-md-4:hover{
+.col-md-4:hover {
   background:#2b2b2b;
   -webkit-transition:0.4s;
   -moz-transition:0.4s;
@@ -88,12 +86,12 @@ h3 {
 }
 
 .post:hover{
-text-decoration:none;
+text-decoration: none;
   cursor: none;
 }
 
 .fa{
-  margin-right:5px;
+  margin-right: 5px;
   cursor: none;
 }
 
@@ -101,46 +99,44 @@ text-decoration:none;
   top: 50%;
   width: 100%;
   text-align: left;
-  cursor: none;
+  cursor:none;
   height:auto;
   overflow:hidden;
   background: #202124;
-  border:10px solid #202124;
+  border:5px solid #202124;
   position:relative;
   z-index:0;
-  .inner{
-    padding:10px;
-    h2{
-      font:900 24px Lato;
-      text-transform:uppercase;
-      margin-bottom:18px;
-      color:#fff;
-    }
-    p{
-      font:400 14px Lato;
-      line-height:22px;
-      color:#9b9eab;
-      cursor: none;
-    }
-    
-    .read-more{
-      color:#a043f2;
-      display:block;
-      font:900 13px Lato;
-      position:relative;
-      text-transform:uppercase;
-      cursor: none;
-    }
-    
-    .read-more:hover{
-      text-decoration:none;
-      cursor: none;
-    }
-  }
+}
+.col-md-4 .inner {
+  padding: 10px;
+}
+.col-md-4 .inner h2 {
+  font: 900 24px Lato;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: #fff;
+}
+.col-md-4 .inner p {
+  font: 400 14px Lato;
+  line-height: 22px;
+  color: #9b9eab;
+  cursor: none;
+}
+.col-md-4 .inner .read-more {
+  color: #a043f2;
+  display: block;
+  font: 900 13px Lato;
+  position: relative;
+  text-transform: uppercase;
+  cursor: none;
+}
+.col-md-4 .inner .read-more:hover {
+  text-decoration: none;
+  cursor: none;
 }
 
-a:active,a:focus{
+a:active, a:focus {
   color: #a043f2;
-  text-decoration:none;
+  text-decoration: none;
   cursor: none;
 }
