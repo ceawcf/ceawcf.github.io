@@ -9,6 +9,7 @@
 
 html, body {
   height: 100%;
+  cursor: none;
   }
   body {
     overflow: hidden;
@@ -24,6 +25,7 @@ html, body {
     }
 
 h1 {
+  cursor: none;
   display: inline-block;
   color: white;
   font-family: 'Righteous', serif;
@@ -60,11 +62,13 @@ h1 {
 }
 
 body {
+  cursor: none;
   margin: 0px;
   font-family: 'segoe ui';
 }
 
-footer{ 
+footer{
+  cursor: none;
   position:absolute; 
   bottom:0; 
   width:100%; 
@@ -103,7 +107,7 @@ footer{
   display: none;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -118,6 +122,7 @@ footer{
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
     background-color: #2b2b2b;
+    cursor: none;
   }
   .nav > .nav-btn > label > span {
     display: block;
@@ -135,6 +140,7 @@ footer{
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    cursor: none;
   }
   .nav > .nav-links > a {
     display: block;
@@ -147,6 +153,18 @@ footer{
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+}
+
+a {
+  color: white;
+  cursor: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: none;
 }
 
 .hm {
