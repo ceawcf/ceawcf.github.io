@@ -21,12 +21,12 @@ nav > a {
   font-weight: 300;
   text-decoration: none;
   position: relative;
-  color: #2b2b2b;
+  color: white;
   cursor: none;
 }
 
 nav > a:hover {
-  color: white;
+  color: #a043f2;
   cursor: none;
 }
 
